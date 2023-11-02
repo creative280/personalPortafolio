@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.1.2-web/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/fonts/poppins/poppins.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/scroll.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <title>Portafolio - ATS</title>
+</head>
+
+<body>
+    <!-- Layout Principal -->
+    <div class="layout">
+        <!-- Barra Lateral (Info Usuario) -->
+        <aside class="layout__aside">
+            <section class="aside__user-info">
+                <!-- Informacion general usuario -->
+                <div class="user-info__general">
+                    <div class="user-info__container-image">
+                        <img src="./assets/img/default-user.jpeg" class="user-info__image" width="360px"
+                            alt="Foto de perfil del usuario" />
+                    </div>
+                    <h2 class="user-info__name">Alejandro Taborda Sepulveda</h2>
+                    <h3 class="user-info__job">
+                        Desarrollador WEB & Analista de Datos
+                    </h3>
+                </div>
+
+                <!-- Menu de navegacion -->
+                <nav class="layout__menu">
+                    <ul class="menu__list">
+                        <li class="menu__option">
+                            <a href="index.html" class="menu__link">
+                                <i class="fa-solid fa-house menu__icon"></i>
+                                <span class="menu__overlay">Home</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="sobre-mi.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-user"></i>
+                                <span class="menu__overlay">Sobre Mi</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="curriculum.html" class="menu__link menu__link--active">
+                                <i class="menu__icon fa-solid fa-graduation-cap"></i>
+                                <span class="menu__overlay">Curriculum</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="portafolio.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-briefcase"></i>
+                                <span class="menu__overlay">Portafolio</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="blog.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-book"></i>
+                                <span class="menu__overlay">Blog</span>
+                            </a>
+                        </li>
+                        <li class="menu__option">
+                            <a href="contacto.html" class="menu__link">
+                                <i class="menu__icon fa-solid fa-envelope"></i>
+                                <span class="menu__overlay">Contacto</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Link redes sociales -->
+                <div class="user-info__links">
+                    <ul class="links__social">
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-youtube"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+                        <li class="social__option">
+                            <a href="#" class="social__link">
+                                <i class="social__icon fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Boton del Curriculum -->
+                <div class="user-info__buttons">
+                    <a href="" class="user-info__btn">Descargar CV</a>
+                </div>
+
+                <!-- Pie de pagina -->
+                <footer class="user-info__footer">
+                    &copy; 2024 Alejandro Taborda WEB
+                </footer>
+            </section>
+        </aside>
+
+        <!-- Contenido Principal -->
+
+        <main class="layout__content">
+            <section class="content__page content__resume">
+                <!-- ESTE CONTENIDO CAMBIA EN CADA PAGINA DEL SITIO WEB -->
+
+                <header class="resume__header">
+                    <h1 class="resume__title">Curriculum</h1>
+                </header>
+
+                <div class="resume__container">
+                    <section class="resume__left">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Formación</h2>
+                        </header>
+                        <div class="resume__timeline">
+
+                            <article class="timeline__item">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2023</h4>
+                                    <span class="timeline__company">CIAF Educacion Superior</span>
+                                </header>
+                                <div class="timeline__divider"></div>
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Ingenieria de Software</h3>
+                                    <p class="timeline__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident quo
+                                        exercitationem maiores porro repudiandae, ipsum repellat voluptatibus excepturi
+                                        harum aliquid est voluptate? Atque, id blanditiis dicta illo repudiandae eos.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="timeline__item">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2010</h4>
+                                    <span class="timeline__company">American Business School</span>
+                                </header>
+                                <div class="timeline__divider"></div>
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Tecnico en Diseño Grafico</h3>
+                                    <p class="timeline__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident quo
+                                        exercitationem maiores porro repudiandae, ipsum repellat voluptatibus excepturi
+                                        harum aliquid est voluptate? Atque, id blanditiis dicta illo repudiandae eos.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Experiencia</h2>
+                        </header>
+                        <div class="resume__timeline">
+
+                            <article class="timeline__item">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2022 - 2023</h4>
+                                    <span class="timeline__company">OnOff S.A.S</span>
+                                </header>
+                                <div class="timeline__divider"></div>
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Analista Estrategico BI</h3>
+                                    <p class="timeline__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident quo
+                                        exercitationem maiores porro repudiandae, ipsum repellat voluptatibus excepturi
+                                        harum aliquid est voluptate? Atque, id blanditiis dicta illo repudiandae eos.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="timeline__item">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2020 - 2021</h4>
+                                    <span class="timeline__company">UNO27 BPO</span>
+                                </header>
+                                <div class="timeline__divider"></div>
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">Analista de Datos</h3>
+                                    <p class="timeline__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident quo
+                                        exercitationem maiores porro repudiandae, ipsum repellat voluptatibus excepturi
+                                        harum aliquid est voluptate? Atque, id blanditiis dicta illo repudiandae eos.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="timeline__item">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2019 - 2020</h4>
+                                    <span class="timeline__company">eLogytec SAS</span>
+                                </header>
+                                <div class="timeline__divider"></div>
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">SCRUM MASTER</h3>
+                                    <p class="timeline__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident quo
+                                        exercitationem maiores porro repudiandae, ipsum repellat voluptatibus excepturi
+                                        harum aliquid est voluptate? Atque, id blanditiis dicta illo repudiandae eos.
+                                    </p>
+                                </div>
+                            </article>
+                            <article class="timeline__item">
+                                <header class="timeline__header">
+                                    <h4 class="timeline__year">2016 - 2018</h4>
+                                    <span class="timeline__company">Emergia Customer Care</span>
+                                </header>
+                                <div class="timeline__divider"></div>
+                                <div class="timeline__description">
+                                    <h3 class="timeline__title">GERENTE DE SERVICIO / CAMPAIGN MANAGER</h3>
+                                    <p class="timeline__description">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti provident quo
+                                        exercitationem maiores porro repudiandae, ipsum repellat voluptatibus excepturi
+                                        harum aliquid est voluptate? Atque, id blanditiis dicta illo repudiandae eos.
+                                    </p>
+                                </div>
+                            </article>
+                        </div>
+                    </section>
+                    <section class="resume__right">
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de Codigo</h2>
+                        </header>
+
+                        <div class="resume__skills">
+                            <article class="skills__title">
+                                <h4 class="skills__text">HTML & CSS</h4>
+                                <span class="skills__number">100%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage"></div>
+                            </div>
+                            <article class="skills__title">
+                                <h4 class="skills__text">JavaScript</h4>
+                                <span class="skills__number">70%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage"></div>
+                            </div>
+                            <article class="skills__title">
+                                <h4 class="skills__text">Python</h4>
+                                <span class="skills__number">60%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage"></div>
+                            </div>                        
+                        </div>
+
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Habilidades de Analisis de Datos</h2>
+                        </header>
+                        <div class="resume__skills">
+                            <article class="skills__title">
+                                <h4 class="skills__text">MySQL</h4>
+                                <span class="skills__number">90%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage"></div>
+                            </div>
+                            <article class="skills__title">
+                                <h4 class="skills__text">SQL Server</h4>
+                                <span class="skills__number">80%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage"></div>
+                            </div>
+                            <article class="skills__title">
+                                <h4 class="skills__text">Power BI</h4>
+                                <span class="skills__number">100%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage"></div>
+                            </div>
+                            <article class="skills__title">
+                                <h4 class="skills__text">Excel</h4>
+                                <span class="skills__number">100%</span>
+                            </article>
+                            <div class="skills__progressbar">
+                                <div class="skills__percentage"></div>
+                            </div>                     
+                        </div>
+                        <header class="resume__subheader">
+                            <h2 class="resume__subtitle">Areas de Conocimientos</h2>
+                        </header>
+                        <div class="resume__knowledges">
+                            <ul class="knowledges__list">
+                                <li class="knowledges__option">Programación</li>
+                                <li class="knowledges__option">Desarollo web</li>
+                                <li class="knowledges__option">Diseño WEB</li>
+                                <li class="knowledges__option">Analisis de Datos</li>
+                                <li class="knowledges__option">Metodologias Agiles</li>
+                                <li class="knowledges__option">Formación</li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="resume__cretificates">
+                    <header class="resume__subheader">
+                        <h2 class="resume__subtitle">Certificados</h2>
+                    </header>
+                    <section class="certificates__container">
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image" alt="" />
+                            </div>
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Master en HTML & CSS</h4>
+                                <span class="cetificate__id">ID Verificacion: XXX-XX</span>
+                                <span class="certificate__date">01 Noviembre 2023</span>
+                            </div>
+                        </article>
+                        <article class="certificates__certificate">
+                            <div class="certificate__logo">
+                                <img src="assets/img/certificado-1.png" class="certificate__image" alt="" />
+                            </div>
+                            <div class="certificate__content">
+                                <h4 class="certificate__title">Analisis de Datos con POWER BI</h4>
+                                <span class="cetificate__id">ID Verificacion: XXX-XX</span>
+                                <span class="certificate__date">15 Diciembre 2023</span>
+                            </div>
+                        </article>
+                    </section>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>
